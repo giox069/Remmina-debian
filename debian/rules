@@ -1,4 +1,5 @@
 #!/usr/bin/make -f
+include /usr/share/dpkg/pkg-info.mk
 
 LDFLAGS += -Wl,--as-needed
 
@@ -11,6 +12,9 @@ else
         REMMINA_PLUGIN_SPICE_ARCHITECTURES=any
         REMMINA_PLUGIN_SPICE_BUILDDEPS_ARCHS=
 endif
+
+suffix_dev = $(shell echo "$(DEB_VERSION)" | sed 's/-[^-]*$$//g;s/^[^-]*-//g')
+githash_dev = $(shell if echo "$(DEB_VERSION)" | grep -q '+git.......+'; then echo "$(DEB_VERSION)" | sed 's/^.*+git\(.......\).*/\1/g' ; fi)
 
 # macro computing the list of 'debian/<pkg>.*" files which have a
 # corresponding ".in" file; pass the list of packages in $(1)
@@ -34,6 +38,17 @@ clean:: debian/control
 # Add dependencies to generate files from the debian/*.in ones
 build-indep: $(call dh_subst_files,$(DEB_INDEP_PACKAGES))
 build-arch: $(call dh_subst_files,$(DEB_ARCH_PACKAGES))
+
+override_dh_auto_configure:
+#	( echo "DI QUI" ; echo "=== ENV ===" ; env ; echo "=== SET ===" ; set ; echo "=== HEAD changelog ==" ) > /tmp/my.log
+#	echo $(DEB_SOURCE) >> /tmp/my.log
+#	echo $(DEB_VERSION) >> /tmp/my.log
+#	if head -n 1 debian/changelog | grep '+git.......+'; then ; 
+# 	suffix_dev=$(shell echo "$(DEB_VERSION)" | sed 's/-[^-]*\$//g;s/^[^-]*-//g')
+#	echo "XXXX $(suffix_dev)"
+	if [ "$(suffix_dev)" ]; then sed -i "s/\(set( *REMMINA_VERSION_SUFFIX \?\"\)[^\"]\+\(\")\)/\1$(suffix_dev)\2/g" CMakeLists.txt ; fi
+	if [ "$(githash_dev)" ]; then sed -i "s/\(set( *PACKAGE_GIT_REVISION \?\"\)[^\"]*\(\")\)/\1$(githash_dev)\2/g" CMakeLists.txt ; fi
+	dh_auto_configure
 
 override_dh_install:
 	dh_install
