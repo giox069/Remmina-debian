@@ -1,9 +1,3 @@
-remmina (1.2.0-rcgit-18-0+remmina3) unstable; urgency=medium
-
-  * debian/control{,.in}: add git to Build-Depends field
-
- -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Thu, 11 May 2017 22:20:24 +0200
-
 remmina (1.2.0-rcgit-18-0+remmina2) unstable; urgency=low
 
   * debian/rules: recognize UBUNTU_SERIE by debian/changelog too
