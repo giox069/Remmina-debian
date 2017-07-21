@@ -1,3 +1,17 @@
+remmina (1.2.0-rcgit-19-0+remmina2) unstable; urgency=low
+
+  * Several bug fixes and enhancements.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Multi Password Changer.
+  * Fixes for the exit strategy.
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Ssh plugin and tunnel improvements.
+  * Implementing separate user and password for RD Gateway.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Fri, 22 Jul 2017 00:00:06 +0200
+
 remmina (1.2.0-rcgit-18-0+remmina2) unstable; urgency=low
 
   * debian/rules: recognize UBUNTU_SERIE by debian/changelog too
