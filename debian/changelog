@@ -1,7 +1,6 @@
 remmina (1.2.0-rcgit-20-0+remmina1) unstable; urgency=low
 
- [Antenore Gatta (https://github.com/antenore)]
- * Bug fixing introduced by the previous release (1.2.0-rcgit-19)
+  * Bug fixing introduced by the previous release.
 
  -- Antenore Gatta <antenore@simbiosi.org>  Fri, 25 Aug 2017 22:09:02 +0200
 
