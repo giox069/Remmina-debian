@@ -1,3 +1,15 @@
+remmina (1.2.0-rcgit-21-0+remmina1) unstable; urgency=low
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Implementation of dynamic resolution update for RDP.
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Custom Terminal Color Schemes for SSH.
+
+  * ... and tons of bug fixing and enhancements as usual.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Sun, 08 Oct 2017 23:30:02 +0200
+
 remmina (1.2.0-rcgit-20-0+remmina1) unstable; urgency=low
 
   * Bug fixing introduced by the previous release.
