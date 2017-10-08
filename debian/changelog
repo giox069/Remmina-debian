@@ -1,3 +1,9 @@
+remmina (1.2.0-rcgit-21-0+remmina2) unstable; urgency=low
+
+  * Fixed desktop files pattern to avoid apt-get crash
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Sun, 09 Oct 2017 00:45:14 +0200
+
 remmina (1.2.0-rcgit-21-0+remmina1) unstable; urgency=low
 
   [Giovanni Panozzo (https://github.com/giox069)]
