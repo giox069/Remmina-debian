@@ -1,3 +1,10 @@
+remmina (1.2.0-rcgit-21-0+remmina3) unstable; urgency=medium
+
+  * debian/control{,in}: require libfreerdp-plugins-standard (>= 2.0.0~git201710051313) in
+    remmina-plugin-rdp Depends field.
+
+ -- Devid Antonio Filoni <d.filoni@ubuntu.com>  Thu, 12 Oct 2017 22:04:51 +0200
+
 remmina (1.2.0-rcgit-21-0+remmina2) unstable; urgency=low
 
   * Fixed desktop files pattern to avoid apt-get crash

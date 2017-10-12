@@ -62,7 +62,7 @@ Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends},
  remmina (= ${binary:Version}),
- libfreerdp-plugins-standard (>= 2.0.0~) | libfreerdp-client2
+ libfreerdp-plugins-standard (>= 2.0.0~git201710051313) | libfreerdp-client2
 Description: RDP plugin for remmina remote desktop client
  Remmina is a remote desktop connection client able to display and control a
  remote desktop session.
