@@ -1,3 +1,9 @@
+remmina (1.2.0-rcgit-22-0+remmina1) unstable; urgency=low
+
+  * Bug fixing and enhancements as usual.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Sat, 20 Oct 2017 16:08:02 +0200
+
 remmina (1.2.0-rcgit-21-0+remmina3) unstable; urgency=medium
 
   * debian/control{,in}: require libfreerdp-plugins-standard (>= 2.0.0~git201710051313) in
