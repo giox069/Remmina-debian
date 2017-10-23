@@ -1,3 +1,25 @@
+remmina (1.2.0-rcgit-23-0+remmina1) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Save SSH session to file.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Fixes for issue 1327, optional VTE on SSH.
+
+  [Devid Antonio Filoni (https://github.com/dfiloni)]
+  * snap: add password-manager-service interface for gnome-keyring.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Fix window state saving for remmina_connection_window and main window.
+
+  [scootergrisen (https://github.com/scootergrisen)]
+  * Update da.po.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Fixes for deprecated "resolution" setting, issue \#1323 [\#1329](https://github.com/FreeRDP/Remmina/pull/1329) ([giox069](https://github.com/giox069))
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Mon, 23 Oct 2017 21:49:22 +0200
+
 remmina (1.2.0-rcgit-22-0+remmina2) unstable; urgency=low
 
   * Fixed release number
