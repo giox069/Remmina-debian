@@ -1,7 +1,16 @@
+remmina (1.2.0-rcgit-23-0+remmina3) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Fixing Changelog
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Mon, 23 Oct 2017 22:55:13 +0200
+
 remmina (1.2.0-rcgit-23-0+remmina2) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
   * Tagging Remmina version
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Mon, 23 Oct 2017 22:54:13 +0200
 
 remmina (1.2.0-rcgit-23-0+remmina1) unstable; urgency=low
 
