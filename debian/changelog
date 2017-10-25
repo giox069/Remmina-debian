@@ -1,9 +1,16 @@
+remmina (1.2.0-rcgit-24-0+remmina3) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Fixing Changelog
+
+ -- Antenore Gatta <antenore@simbiosi.org> Wed, 25 Oct 2017 22:00:11 +0200
+
 remmina (1.2.0-rcgit-24-0+remmina2) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
   * Fixing Changelog
 
- -- Antenore Gatta <antenore@simbiosi.org> Wed, 25 Oct 2017 21:40:11 +0200
+ -- Antenore Gatta <antenore@simbiosi.org> Wed, 25 Oct 2017 22:00:11 +0200
 
 remmina (1.2.0-rcgit-24-0+remmina1) unstable; urgency=low
 
@@ -44,7 +51,7 @@ remmina (1.2.0-rcgit-23-0+remmina1) unstable; urgency=low
   * Update da.po.
 
   [Giovanni Panozzo (https://github.com/giox069)]
-  * Fixes for deprecated "resolution" setting, issue \#1323 [\#1329](https://github.com/FreeRDP/Remmina/pull/1329) ([giox069](https://github.com/giox069))
+  * Fixes for deprecated "resolution" setting
 
  -- Antenore Gatta <antenore@simbiosi.org>  Mon, 23 Oct 2017 21:49:22 +0200
 
@@ -53,6 +60,7 @@ remmina (1.2.0-rcgit-22-0+remmina2) unstable; urgency=low
   * Fixed release number
 
  -- Antenore Gatta <antenore@simbiosi.org>  Fri, 20 Oct 2017 16:34:02 +0200
+
 remmina (1.2.0-rcgit-22-0+remmina1) unstable; urgency=low
 
   * Bug fixing and enhancements as usual.
