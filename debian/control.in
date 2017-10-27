@@ -115,7 +115,7 @@ Description: Telepathy plugin for remmina remote desktop client
  .
  This package contains the Telepathy plugin for Remmina.
 
-Package: remmina-plugin-gnome
+Package: remmina-plugin-secret
 Architecture: any
 Depends: ${shlibs:Depends},
  ${misc:Depends},
@@ -152,7 +152,7 @@ Depends: ${shlibs:Depends},
  remmina-plugin-xdmcp (= ${binary:Version}),
  remmina-plugin-nx (= ${binary:Version}),
  remmina-plugin-telepathy (= ${binary:Version}),
- remmina-plugin-gnome (= ${binary:Version})
+ remmina-plugin-secret (= ${binary:Version})
 Description: remote desktop client - debug pakcage
  Remmina is a remote desktop connection client able to display and control a
  remote desktop session.
