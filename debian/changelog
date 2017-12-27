@@ -1,3 +1,13 @@
+remmina (1.2.0-rcgit-25-0+remmina1) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * SSH Tunnel fixes.
+  * EXEC plugin.
+  * Severla minor fixes.
+  * New translations.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Wed, 27 Dec 2017 23:34:11 +0200
+
 remmina (1.2.0-rcgit-24-0+remmina3) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
