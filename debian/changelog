@@ -1,3 +1,10 @@
+remmina (1.2.0-rcgit-25-0+remmina2) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Replace gnome-plugin
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Thu, 28 Dec 2017 14:41:22 +0200
+
 remmina (1.2.0-rcgit-25-0+remmina1) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
