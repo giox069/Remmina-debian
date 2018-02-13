@@ -1,3 +1,10 @@
+remmina (1.2.0-rcgit-26-0+remmina2) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Added dependencies for Remmina statistics module.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Thu, 13 Feb 2018 09:14:11 +0200
+
 remmina (1.2.0-rcgit-26-0+remmina1) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
