@@ -1,3 +1,17 @@
+remmina (1.2.0-rcgit-27-0+remmina1) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Remmina usage statistics.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Remmina usage statistics.
+  * RDP + DYNRES: Screen is black immediately after connection and becames
+  visible only later when DISP_DVC_CHANNEL_NAME is connected
+  * Bug fixing.
+  * Support for AVC 444 mode.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Thu, 14 Feb 2018 23:51:11 +0200
+
 remmina (1.2.0-rcgit-26-0+remmina2) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
