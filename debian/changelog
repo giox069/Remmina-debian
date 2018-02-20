@@ -1,3 +1,10 @@
+remmina (1.2.0-rcgit-27-0+remmina2) unstable; urgency=low
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Remmina Exec plugin was not built for Ubuntu.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Thu, 20 Feb 2018 15:25:11 +0200
+
 remmina (1.2.0-rcgit-27-0+remmina1) unstable; urgency=low
 
   [Antenore Gatta (https://github.com/antenore)]
