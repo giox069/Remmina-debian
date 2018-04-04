@@ -1,3 +1,13 @@
+remmina (1.2.0-rcgit-28-0+remmina2) unstable; urgency=medium
+
+  [Antenore Gatta (https://github.com/antenore)]
+  * Fixed desktop metadata.
+
+  [Giovanni Panozzo (https://github.com/giox069)]
+  * Bugfixing.
+
+ -- Antenore Gatta <antenore@simbiosi.org>  Thu, 05 Apr 2018 01:05:23 +0200
+
 remmina (1.2.0-rcgit-28-0+remmina1) unstable; urgency=medium
 
   [Antenore Gatta (https://github.com/antenore)]
