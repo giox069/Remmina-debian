@@ -1,4 +1,4 @@
-remmina (1.2.0-rcgit-28-0+remmina1) unstable; urgency=low
+remmina (1.2.0-rcgit-28-0+remmina1) unstable; urgency=medium
 
   [Antenore Gatta (https://github.com/antenore)]
   * Fedora and SSH bugfixing, prior commands enhancements.
@@ -6,7 +6,7 @@ remmina (1.2.0-rcgit-28-0+remmina1) unstable; urgency=low
   [Giovanni Panozzo (https://github.com/giox069)]
   * Bugfixing and enhancements.
 
- -- Antenore Gatta <antenore@simbiosi.org>  Tue, 03 Apr 2018 22.57:11 +0200
+ -- Antenore Gatta <antenore@simbiosi.org>  Wed, 04 Apr 2018 11:45:23 +0200
 
 remmina (1.2.0-rcgit-27-0+remmina2) unstable; urgency=low
 
