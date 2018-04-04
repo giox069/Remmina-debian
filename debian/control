@@ -34,8 +34,16 @@ Depends: ${shlibs:Depends},
  ${misc:Depends},
  remmina-common (= ${source:Version}),
  dbus-x11
-Recommends: remmina-plugin-rdp,
- remmina-plugin-vnc
+Recommends:
+ remmina-plugin-rdp,
+ remmina-plugin-vnc,
+ remmina-plugin-secret
+Suggests:
+ remmina-plugin-exec,
+ remmina-plugin-nx,
+ remmina-plugin-spice,
+ remmina-plugin-telepathy,
+ remmina-plugin-xdmcp
 Breaks: remmina-plugin-data (<= 0.9)
 Replaces: remmina-gnome, remmina-xfce
 Description: remote desktop client for GNOME desktop environment
