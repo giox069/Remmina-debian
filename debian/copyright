@@ -11,7 +11,7 @@ Copyright: 2009-2011, Vic Lee
            2012, Jean-Louis Dupond
            2012, Andrey Gankov
            2012, Luca Falavigna
-           2015-2017, Antenore Gatta and Giovanni Panozzo
+           2015-2018, Antenore Gatta and Giovanni Panozzo
 License: GPL-2+
 
 Files: cmake/FindOptionalPackage.cmake
